@@ -1,0 +1,150 @@
+html, body{
+    background: hsl(218, 28%, 13%);
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+nav ul li a{
+    justify-content: space-around;
+    text-decoration: none;
+    cursor: pointer;
+    /* color: hsl(0, 0%, 100%); */
+}
+a:hover{
+    text-decoration: underline;
+}
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+h2, h3, h4, h5, h4{
+    font-family: Raleway;
+    font-weight: 700;
+}
+.intro img{
+    margin-right: 60px;
+}
+.intro{
+    background-color: hsl(217, 28%, 15%);
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+button{
+    background-color: hsl(198, 60%, 50%);
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    gap: 70px;
+    margin-top: 70px;
+    justify-content: center;
+}
+.productivity{
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    width: 1100px;
+    gap: 30px;
+}
+.prod_texts{
+    margin-top: 120px;
+}
+.productivity a{
+    text-decoration: underline;
+    color: hsl(198, 60%, 50%);
+}
+
+div.testimonials{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: 20px;
+    width: 1100;
+    justify-content: space-around;
+    
+}
+div.profile{
+    background-color: hsl(219, 30%, 18%);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 350px;
+}
+.status{
+    display: grid;
+    grid-template-columns: 50px 350px;
+    gap: 10px;
+    
+}
+.name, .name>p{
+    /* grid-template-rows: 50px; */
+    margin-top: -20px;
+}
+.early_access{
+    background-color: hsl(217, 28%, 15%);
+    width: 600px;
+    margin:auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+#email{
+    height: 40px;
+    width: 370px;
+    border-radius: 50px;
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+}
+#button{
+    height: 42px;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    background-color: hsl(198, 60%, 50%);
+}
+form>p{
+    color: hsl(0, 100%, 63%);
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+footer ul li{
+    list-style-type: none;
+    display: block;
+}
+div.footer-content{
+    display: grid;
+    grid-template-columns: 400px 200px 100px 100px 300px;
+    gap: 30px;
+    margin-left: 20px;
+}
